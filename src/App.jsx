@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 
 import Home from "./pages/Home";
@@ -8,7 +8,7 @@ import Upload from "./pages/Upload";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
 
       <Routes>
 
@@ -43,7 +43,7 @@ function App() {
         theme="light"
       />
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
